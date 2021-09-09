@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+:root{  /* CSS Variable */
+    --primary-color: #5348F9;
+    --dark-gray: #3f4146;
+    --light-gray: #f9f9f9;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(+135deg,#e6f2ff,#e6ffe6, #ffffe6,#ffe6e6);
+}
+
+#navigation{
+    background: var(--primary-color);
+    box-shadow: 15px 15px salmon;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 179, 0);
+}
+
+.list-item-inline{
+    display: inline;
+    margin: 1rem;
+}
+
+.nav-links{
+    text-align: right;
+}
+
+.nav-brand{
+    color: white;
+    font-weight: bold;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/* header */
+.header-image{
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.header-heading{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.header-subheading{
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.about-me-list{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.about-me-image{
+    width: 90%;
+    height: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 50px;
+}
+
+.section-about{
+    background: var(--light-gray);
+    max-width: 60%;
+    margin: auto;
+    border-radius: 10%;
+    margin-top: 7rem;
+    border: 1px solid black;
+    box-shadow: 8px 8px 8px #c7c6c6;
+    padding: 3rem;
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.list-item{
+    padding-bottom: 0.7rem;
+}
+
+.section-project{
+    padding: 3rem;
+    margin-top: 5rem;
+}
+
+.project-card{
+    border: 1px solid black;
+    box-shadow: 8px 8px 8px #c7c6c6;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: white;
+}
+
+.project-heading{
+    text-align: center;
+    color:rgb(255, 94, 0);
+}
+
+.project-description{
+    text-align: center;
+}
+
+.github-finder-image{
+    width: 90%;
+    height: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 1.7rem;
+    margin-right: 1rem;
+}
+
+.primary-link{
+    text-decoration: none;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.secondary-link{
+    text-decoration: none;
+    background: white;
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+footer{
+    background: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-header{
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
